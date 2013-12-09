@@ -7,60 +7,46 @@
 		<string>algo</string>
 	</array>
 	<key>name</key>
-	<string>ALGORITHM</string>
+	<string>ALGORITHME</string>
 	<key>patterns</key>
 	<array>
 		<dict>
-			<key>comment</key>
-			<string>This comment is optional.</string>
 			<key>match</key>
 			<string>\b(PROGRAMME|VAR|CONST|FIN|DEBUT|SOUS PROGRAMME|E/S|PROCEDURE|E|S|FONCTION|RETOURNER)\b</string>
 			<key>name</key>
 			<string>constant.numeric.algo</string>
 		</dict>
 		<dict>
-			<key>comment</key>
-			<string>This comment is optional.</string>
 			<key>match</key>
 			<string>\b(SI|FINSI|ALORS|SINON|CAS|PARMI|PAR DEFAUT|FINCASPARMI)\b</string>
 			<key>name</key>
 			<string>keyword.control.algo</string>
 		</dict>
 		<dict>
-			<key>comment</key>
-			<string>This comment is optional.</string>
 			<key>match</key>
 			<string>(CAS)[0-9]{1,8}</string>
 			<key>name</key>
 			<string>keyword.control.algo</string>
 		</dict>
 		<dict>
-			<key>comment</key>
-			<string>This comment is optional.</string>
 			<key>match</key>
 			<string>\b(POUR|ALLANT DE|A|AU PAS DE|FAIRE|FINPOUR|TANT QUE|FINTANTQUE|REPETER|JUSQU'A)\b</string>
 			<key>name</key>
 			<string>entity.name.function.algo</string>
 		</dict>
 		<dict>
-			<key>comment</key>
-			<string>This comment is optional.</string>
 			<key>match</key>
 			<string>\b(ENTIER|REEL|BOOLEEN|CARACTERE|CHAINE)\b</string>
 			<key>name</key>
 			<string>storage.type.algo</string>
 		</dict>
 		<dict>
-			<key>comment</key>
-			<string>This comment is optional.</string>
 			<key>match</key>
 			<string>\b(STRUCTURE|DEBUTSTRUCTURE|FINSTRUCTURE)\b</string>
 			<key>name</key>
 			<string>support.function.algo</string>
 		</dict>
 		<dict>
-			<key>comment</key>
-			<string>This comment is optional.</string>
 			<key>match</key>
 			<string>(?&lt;=\s|\w)[\/]{2,}.*</string>
 			<key>name</key>
@@ -82,8 +68,6 @@
 					<string>storage.type.algo</string>
 				</dict>
 			</dict>
-			<key>comment</key>
-			<string>This comment is optional.</string>
 			<key>end</key>
 			<string> </string>
 		</dict>
@@ -103,8 +87,6 @@
 					<string>storage.type.algo</string>
 				</dict>
 			</dict>
-			<key>comment</key>
-			<string>This comment is optional.</string>
 			<key>end</key>
 			<string> </string>
 		</dict>
