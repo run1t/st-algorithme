@@ -5,14 +5,7 @@
 <body>
 <div class="container">
 	<h2>Algorithme Package Sublime Text</h2>
-	<p>Ce package comprend la coloration syntaxique pour la syntaxe algorithmique plus quelques snippets listés ci-dessous. </p>	
-<center><form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top" class="form-inline">
-<input type="hidden" name="cmd" value="_s-xclick">
-<input type="hidden" name="hosted_button_id" value="QGYDVWYV64E7W">
-<a href="dl/sublime-algo-V1.0.3.zip"><button id="download"  type="button" class="btn btn-large btn-success">Télécharger</button></a> 
-<button type="submit"  class="btn btn-large btn-success" border="0" name="submit" >Faire un don</button>
-<img alt="" border="0" src="https://www.paypalobjects.com/fr_FR/i/scr/pixel.gif" width="1" height="1">
-</form></center>
+	<p>Ce package comprend la coloration syntaxique pour la syntaxe algorithmique plus quelques snippets listés ci-dessous. </p>
 	<h4>Installation</h4>
 	  Téléchargez puis decompressez le fichier .zip<br>
 	  Allez dans :
