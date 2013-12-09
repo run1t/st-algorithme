@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>fileTypes</key>
+	<array>
+		<string>algo</string>
+	</array>
+	<key>name</key>
+	<string>ALGORITHM</string>
+	<key>patterns</key>
+	<array>
+		<dict>
+			<key>comment</key>
+			<string>This comment is optional.</string>
+			<key>match</key>
+			<string>\b(PROGRAMME|VAR|CONST|FIN|DEBUT|SOUS PROGRAMME|E/S|PROCEDURE|E|S|FONCTION|RETOURNER)\b</string>
+			<key>name</key>
+			<string>constant.numeric.algo</string>
+		</dict>
+		<dict>
+			<key>comment</key>
+			<string>This comment is optional.</string>
+			<key>match</key>
+			<string>\b(SI|FINSI|ALORS|SINON|CAS|PARMI|PAR DEFAUT|FINCASPARMI)\b</string>
+			<key>name</key>
+			<string>keyword.control.algo</string>
+		</dict>
+		<dict>
+			<key>comment</key>
+			<string>This comment is optional.</string>
+			<key>match</key>
+			<string>(CAS)[0-9]{1,8}</string>
+			<key>name</key>
+			<string>keyword.control.algo</string>
+		</dict>
+		<dict>
+			<key>comment</key>
+			<string>This comment is optional.</string>
+			<key>match</key>
+			<string>\b(POUR|ALLANT DE|A|AU PAS DE|FAIRE|FINPOUR|TANT QUE|FINTANTQUE|REPETER|JUSQU'A)\b</string>
+			<key>name</key>
+			<string>entity.name.function.algo</string>
+		</dict>
+		<dict>
+			<key>comment</key>
+			<string>This comment is optional.</string>
+			<key>match</key>
+			<string>\b(ENTIER|REEL|BOOLEEN|CARACTERE|CHAINE)\b</string>
+			<key>name</key>
+			<string>storage.type.algo</string>
+		</dict>
+		<dict>
+			<key>comment</key>
+			<string>This comment is optional.</string>
+			<key>match</key>
+			<string>\b(STRUCTURE|DEBUTSTRUCTURE|FINSTRUCTURE)\b</string>
+			<key>name</key>
+			<string>support.function.algo</string>
+		</dict>
+		<dict>
+			<key>comment</key>
+			<string>This comment is optional.</string>
+			<key>match</key>
+			<string>(?&lt;=\s|\w)[\/]{2,}.*</string>
+			<key>name</key>
+			<string>comment.algo</string>
+		</dict>
+		<dict>
+			<key>begin</key>
+			<string>(TABLEAU \[)(.*?)(\])</string>
+			<key>beginCaptures</key>
+			<dict>
+				<key>1</key>
+				<dict>
+					<key>name</key>
+					<string>storage.type.algo</string>
+				</dict>
+				<key>3</key>
+				<dict>
+					<key>name</key>
+					<string>storage.type.algo</string>
+				</dict>
+			</dict>
+			<key>comment</key>
+			<string>This comment is optional.</string>
+			<key>end</key>
+			<string> </string>
+		</dict>
+		<dict>
+			<key>begin</key>
+			<string>( \[)(.*?)(\])</string>
+			<key>beginCaptures</key>
+			<dict>
+				<key>1</key>
+				<dict>
+					<key>name</key>
+					<string>storage.type.algo</string>
+				</dict>
+				<key>3</key>
+				<dict>
+					<key>name</key>
+					<string>storage.type.algo</string>
+				</dict>
+			</dict>
+			<key>comment</key>
+			<string>This comment is optional.</string>
+			<key>end</key>
+			<string> </string>
+		</dict>
+		<dict>
+			<key>match</key>
+			<string>\b((0(x|X)[0-9a-fA-F]+)|([0-9]+(\.[0-9]+)?))\b</string>
+			<key>name</key>
+			<string>constant.numeric.algo</string>
+		</dict>
+	</array>
+	<key>scopeName</key>
+	<string>source.algo</string>
+	<key>uuid</key>
+	<string>3dd30ce7-8296-489b-ad28-25323d1ac60f</string>
+</dict>
+</plist>
