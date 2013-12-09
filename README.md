@@ -1,9 +1,3 @@
-<html lang="fr">
-<head>
-  <meta charset="utf-8">
-  <title>Algorithme Package Sublime Text </title>
-  <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
-<body>
 <div class="container">
 	<h2>Algorithme Package Sublime Text</h2>
 	<p>Ce package comprend la coloration syntaxique pour la syntaxe algorithmique plus quelques snippets listés ci-dessous. </p>	
@@ -38,14 +32,7 @@
 	<li>sw  -> CASPARMI</li>
 	</ul>
 	<h4>screenshots</h4>
-	<img src="http://algo.reunan.com/3.png" width="300px"> 
-	<img src="http://algo.reunan.com/4.png" width="300px">
-	<img src="http://algo.reunan.com/5.png" width="300px">
-	</br>
-	</br>
-
-
-</div>
-</head>
-</body>
-</html>
+	<img src="http://algo.reunan.com/3.png" width="300px"> <br>
+	<img src="http://algo.reunan.com/4.png" width="300px"> <br>
+	<img src="http://algo.reunan.com/5.png" width="300px"> <br>
+	
