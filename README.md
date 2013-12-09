@@ -25,7 +25,7 @@
 	<h4>Snippets</h4>
 	<p>Vous ne connaissez pas les snippets ! Vous allez voir, cela va vous simplifier la vie. Pour faire la base d'un algorithme il vous suffira de taper 'pr' puis d'appuyer sur la touche TAB. Ce qui vous donne en trois touches de clavier ceci :
 	<p>
-	<img src="2.png" width = "195px" height="106px">
+	<img src="http://algo.reunan.com/2.png" width = "195px" height="106px">
 	<h5>Voici la liste des snippets :</h5>
 	<ul>
 	<li>pr  -> PROGRAMME</li>
@@ -38,31 +38,13 @@
 	<li>sw  -> CASPARMI</li>
 	</ul>
 	<h4>screenshots</h4>
-	<img src="3.png" width="300px"> 
-	<img src="4.png" width="300px">
-	<img src="5.png" width="300px">
+	<img src="http://algo.reunan.com/3.png" width="300px"> 
+	<img src="http://algo.reunan.com/4.png" width="300px">
+	<img src="http://algo.reunan.com/5.png" width="300px">
 	</br>
 	</br>
-<script type="text/javascript" src="js/jquery.js"></script>	
-<script type="text/javascript">
-	$("#download").click(function(){
-		 $.ajax({
-       type: "POST",
-       url: "compteur.php",
-       data: "name=John&location=Boston&foo=bar",
-       success: function(msg){
-         console.log(val(msg)); // je sais plus si c'est val() ou html() qu'il faut utiliser pour un textarea, à toi de voir :)
-      }
 
-     });
 
-window.open('dl/sublime-algo-V1.0.3.zip','Download');
-
-     });
-return false;
-	});
-
-</script>
 </div>
 </head>
 </body>
