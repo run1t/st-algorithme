@@ -1,4 +1,4 @@
-<div class="container">
+
 	<h2>Algorithme Package Sublime Text</h2>
 	<p>Ce package comprend la coloration syntaxique pour la syntaxe algorithmique plus quelques snippets listés ci-dessous. </p>	
 <center><form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top" class="form-inline">
