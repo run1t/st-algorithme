@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[
+TANT QUE ${1:condition}
+FAIRE
+	$2
+FINTANTQUE]]></content>
+    <!-- Optional: Tab trigger to activate the snippet -->
+    <tabTrigger>wh</tabTrigger>
+    <!-- Optional: Scope the tab trigger will be active in -->
+    <scope>source.algo</scope>
+</snippet>

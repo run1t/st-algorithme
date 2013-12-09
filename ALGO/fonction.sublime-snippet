@@ -1,0 +1,14 @@
+<snippet>
+    <content><![CDATA[
+FONCTION ${1:nom} () : ${2:type}
+VAR
+	$3
+DEBUT
+	RETOURNER()
+FIN
+]]></content>
+    <!-- Optional: Tab trigger to activate the snippet -->
+    <tabTrigger>func</tabTrigger>
+    <!-- Optional: Scope the tab trigger will be active in -->
+    <scope>source.algo</scope>
+</snippet>

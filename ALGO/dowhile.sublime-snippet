@@ -1,0 +1,10 @@
+<snippet>
+    <content><![CDATA[
+REPETER
+	$1
+JUSQU'A ${2:condition}]]></content>
+    <!-- Optional: Tab trigger to activate the snippet -->
+    <tabTrigger>dwh</tabTrigger>
+    <!-- Optional: Scope the tab trigger will be active in -->
+    <scope>source.algo</scope>
+</snippet>

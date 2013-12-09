@@ -1,0 +1,14 @@
+<snippet>
+    <content><![CDATA[
+PROCEDURE ${1:nom} ()
+VAR
+	$2
+DEBUT
+	$3
+FIN
+]]></content>
+    <!-- Optional: Tab trigger to activate the snippet -->
+    <tabTrigger>pro</tabTrigger>
+    <!-- Optional: Scope the tab trigger will be active in -->
+    <scope>source.algo</scope>
+</snippet>

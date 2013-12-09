@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[
+POUR ${1:compteur} ALLANT DE $2 A $3 AU PAS DE $4
+FAIRE
+	
+FINPOUR]]></content>
+    <!-- Optional: Tab trigger to activate the snippet -->
+    <tabTrigger>for</tabTrigger>
+    <!-- Optional: Scope the tab trigger will be active in -->
+    <scope>source.algo</scope>
+</snippet>

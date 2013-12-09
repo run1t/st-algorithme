@@ -1,0 +1,13 @@
+<snippet>
+    <content><![CDATA[
+CAS ${1:variable} PARMI :
+	CAS1 : ${2:valeur}
+		$3
+	PAR DEFAUT
+		$4
+FINCASPARMI]]></content>
+    <!-- Optional: Tab trigger to activate the snippet -->
+    <tabTrigger>sw</tabTrigger>
+    <!-- Optional: Scope the tab trigger will be active in -->
+    <scope>source.algo</scope>
+</snippet>
