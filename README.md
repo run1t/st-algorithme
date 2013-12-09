@@ -1,4 +1,3 @@
-<!doctype html>
 <html lang="fr">
 <head>
   <meta charset="utf-8">
@@ -7,7 +6,6 @@
 <body>
 <div class="container">
 	<h2>Algorithme Package Sublime Text</h2>
-	<hr>
 	<p>Ce package comprend la coloration syntaxique pour la syntaxe algorithmique plus quelques snippets listés ci-dessous. </p>	
 <center><form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top" class="form-inline">
 <input type="hidden" name="cmd" value="_s-xclick">
@@ -28,7 +26,7 @@
 	<p>Vous ne connaissez pas les snippets ! Vous allez voir, cela va vous simplifier la vie. Pour faire la base d'un algorithme il vous suffira de taper 'pr' puis d'appuyer sur la touche TAB. Ce qui vous donne en trois touches de clavier ceci :
 	<p>
 	<img src="2.png" width = "195px" height="106px">
-	<h6>Voici la liste des snippets :</h6>
+	<h5>Voici la liste des snippets :</h5>
 	<ul>
 	<li>pr  -> PROGRAMME</li>
 	<li>if  -> CONDITION SI</li>
@@ -45,10 +43,6 @@
 	<img src="5.png" width="300px">
 	</br>
 	</br>
-		
-	<h3>Logs</h3>
-
-	<h4>Version 1.0</h4>
 <script type="text/javascript" src="js/jquery.js"></script>	
 <script type="text/javascript">
 	$("#download").click(function(){
