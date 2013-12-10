@@ -6,7 +6,7 @@
 <div class="container">
 	<h2>Algorithme Package Sublime Text</h2>
 	<p>Ce package comprend la coloration syntaxique pour la syntaxe algorithmique plus quelques snippets listés ci-dessous. </p>
-	Vous pouvez me suivre sur twiiter [@Reunan_LeNoc](https://twitter.com/Reunan_LeNoc)
+	Vous pouvez me suivre sur twitter <a href="https://twitter.com/Reunan_LeNoc">@Reunan_LeNoc</a>.
 	<h4>Installation</h4>
 	  Téléchargez puis decompressez le fichier .zip<br>
 	  Allez dans :
